@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+
+  <meta name="icon-pen" content="static/images/penguin.ico">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Hyperspectral Image Dataset for Individual Penguin Identification</title>
+  <link rel="icon" type="image/x-icon" href="static/images/penguin.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Appearance-and-Spectral-Based Identification System for Penguin Individuals</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <span style="color:#4A4A4A">Youta Noboru</span><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://033lab.org/" target="_blank">Yuko Ozasa</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="http://www.vip.sc.e.titech.ac.jp/mtanaka/" target="_blank">Masayuki Tanaka</a><sup>2</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Tokyo Denki University, <sup>2</sup>Institute of Science Tokyo<br>ITE Transactions on Media Technology and Applications</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <span class="link-block">
+                        <a href="https://www.jstage.jst.go.jp/article/mta/13/2/13_211/_article/-char/ja/" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+              <!-- dataset Link -->
+                <span class="link-block">
+                  <a href="https://tdu.box.com/s/e96lruwtq18b197a46ws5wv7kcg5g8ew" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <img src="static/images/box-39.svg" alt="Database Icon" class="icon" style="width: 20px; height: 20px;">
+                <span>Full Size Dataset</span>
+              </a>
+            </span>
+            <!-- Research Group Link -->
+            <span class="link-block">
+              <a href="https://033labcodes.github.io/hyper-penguin-projectpage/" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <img src="static/images/penguin.ico" alt="Penguin Icon" style="width: 16px; height: 16px;">
+              </span>
+              <span>Individual Penguin Identification Research</span>
+              </a>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present a system for identifying individual penguins in flock images by combining appearance-based penguin detection with RGB images and spectral-based penguin identification with hyperspectral (HS) information. For the spectral-based identification, we propose a classification and ensemble approach inspired by the observation that many animals have similar color patterns. For example, penguins typically have black and white coloration, with consistent color distributions across individuals. The proposed system's effectiveness was experimentally validated with a mean Average Precision (mAP) metric. The proposed Appearance-and-Spectral-Based identification system significantly outperformed conventional appearance-based and spectral-based systems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- 
+<section class="hero is-small">
+  <div class="hero-body">
+    <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+  </div>
+</section> -->
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-slide">
+          <!-- Your image here -->
+          <img src="static/images/figure1.png" alt="Proposed system architecture"/>
+          <h2 class="subtitle has-text-centered">
+            Proposed system that effectively integrates appearance and spectral information. It uses RGB images for animal detection and spectral data for individual identification.
+          </h2>
+        </div>
+        <div class="item item-slide">
+          <!-- Your image here -->
+          <img src="static/images/figure6.png" alt="Visual comparison of identification results"/>
+          <h2 class="subtitle has-text-centered">
+            Visual comparison of penguin identification results across different approaches. Our method demonstrates superior performance in accurately identifying individual penguins across various image resolutions. For the Spectralbased approach, colored areas indicate predicted penguin locations: green for correct identifications and red for misidentifications.
+          </h2>
+        </div>
+        <div class="item item-slide">
+          <!-- Your image here -->
+          <img src="static/images/table3.png" alt="Comparison metrics table"/>
+          <h2 class="subtitle has-text-centered">
+            Comparison of mAP, Precision, Recall, and F1-score for penguin individual identification using different approaches across image resolutions.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{noboru2025appearance,
+          title={Appearance-and-Spectral-Based Identification System for Penguin Individuals},
+          author={Noboru, Youta and Ozasa, Yuko and Tanaka, Masayuki},
+          journal={ITE Transactions on Media Technology and Applications},
+          volume={13},
+          number={2},
+          pages={211--220},
+          year={2025},
+          publisher={The Institute of Image Information and Television Engineers}
+        }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
